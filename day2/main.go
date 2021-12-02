@@ -9,8 +9,6 @@ import (
 	"strings"
 )
 
-// readInput reads our text file
-// and returns an array of ints
 func readInput() []string {
 	file, err := os.Open("input.txt")
 	defer file.Close()
